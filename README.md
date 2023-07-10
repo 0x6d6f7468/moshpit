@@ -49,3 +49,36 @@ ASDF Options:
 
 ## Example(s)
 
+### Example 1: Default Arguments, Saving as Different Image Type
+
+#### Original Photo:
+![image](https://github.com/0x6d6f7468/moshpit/assets/25512187/d8779d4c-f50b-4082-849f-e2d66c8fe617)
+
+Image Credit: "Blue-headed hummingbird" by Charles J. Sharp is licensed under CC BY 3.0
+
+Image Source: [https://commons.wikimedia.org/w/index.php?curid=12374013]()
+
+#### Command:
+```bash
+./moshpit -i hummingbird_original.jpg -o hummingbird_sorted.png
+```
+
+#### Result:
+![image](https://github.com/0x6d6f7468/moshpit/assets/25512187/ae65c6a7-4774-4d1f-a043-be5d091b091d)
+
+### Example 2: Custom Direction, Mode, and Threshold
+
+#### Original Photo:
+![image](https://github.com/0x6d6f7468/moshpit/assets/25512187/e0ca4995-9600-4f9c-baa8-59c127ca9377)
+
+Image Credit: "Madagascar sunset moth, aka Round-winged Emerald butterfly." by Swallowtail Garden Seeds is marked with Public Domain Mark 1.0
+
+Image Source: [https://www.flickr.com/photos/97123293@N07/19626923458]()
+
+#### Command:
+```bash
+./moshpit -i moth_original.jpg -o moth_original.jpg -d both -m black -t 0x0bdcffff
+```
+
+#### Result:
+![image](https://github.com/0x6d6f7468/moshpit/assets/25512187/59d9416c-88e2-4c82-b49a-bd5c022bbe8d)
